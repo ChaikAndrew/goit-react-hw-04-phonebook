@@ -20,7 +20,7 @@
 
 .PhoneBookList__btn:focus,
 .PhoneBookList__btn:hover {
-  color: #ff0000;
+  color: #ff0000f4;
 }
 
 .PhoneBookList__item:not(:last-child) {
