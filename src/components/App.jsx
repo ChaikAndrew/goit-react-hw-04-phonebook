@@ -6,7 +6,6 @@ import shortid from 'shortid';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import s from './Container.module.css';
-// import animation from './animation';
 import { customToast } from './helper';
 import { useState, useEffect } from 'react';
 
@@ -93,7 +92,7 @@ export default function App() {
         </>
       ) : (
         <p className={s.Contacts__title}>
-          The contact book is empty. Add contacts to your phone book.{' '}
+          The contact book is empty. Add contacts to your phone book.
         </p>
       )}
     </div>

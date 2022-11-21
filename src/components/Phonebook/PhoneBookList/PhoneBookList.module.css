@@ -7,8 +7,6 @@
   display: flex;
   padding: 5px;
   align-items: center;
-  /* justify-content: space-between; */
-
   height: 40px;
 }
 
@@ -16,10 +14,10 @@
   width: 35px;
   height: 35px;
   cursor: pointer;
-
   border: none;
   background-color: transparent;
 }
+
 .PhoneBookList__btn:focus,
 .PhoneBookList__btn:hover {
   color: #ff0000;

@@ -11,7 +11,6 @@ const PhoneBookList = ({ contacts, ondeletePhoneBook }) => (
       <li key={id} className={s.PhoneBookList__item}>
         <div className={s.Contacts__name}>
           <BsFillPersonFill className={s.Form__icon} />
-
           {name}
         </div>
         <div className={s.Contacts__phone}>
