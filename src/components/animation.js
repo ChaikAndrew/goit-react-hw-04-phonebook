@@ -1,5 +1,5 @@
 // 'use strict';
-var app = {
+const app = {
   chars: [
     '0',
     '1',
@@ -60,4 +60,4 @@ var app = {
   },
 };
 
-document.addEventListener('DOMContentLoaded', app.init);
+export default app;
