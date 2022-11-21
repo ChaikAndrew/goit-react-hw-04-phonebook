@@ -80,7 +80,7 @@ export default function App() {
 
       {contacts.length > 0 ? (
         <>
-          <p className={s.Contacts__sum}>
+          <p className={s.Contacts__title}>
             There are {contacts.length} contacts in your PhoneBook
           </p>
           <Filter value={filter} onChange={changeFilter} />
@@ -92,7 +92,7 @@ export default function App() {
           <ToastContainer />
         </>
       ) : (
-        <p className={s.Contacts__sum}>
+        <p className={s.Contacts__title}>
           The contact book is empty. Add contacts to your phone book.{' '}
         </p>
       )}
